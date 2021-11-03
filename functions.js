@@ -1,7 +1,6 @@
 const functions = {
   add: (num1, num2) => num1 + num2,
   stringLength: (name) => {
-
     newName = name.length;
     if(newName >= 1 && newName < 10){
       console.log("Correct");
